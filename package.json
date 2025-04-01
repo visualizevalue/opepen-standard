@@ -4,6 +4,7 @@
   "description": "A tiny library for generating opepen blockies.",
   "main": "dist/opepen.js",
   "module": "src/opepen.mjs",
+  "types": "src/opepen.d.ts",
   "scripts": {
     "build": "rollup -f cjs src/opepen.mjs -o dist/opepen.js && minify dist/opepen.js -o dist/opepen.min.js",
     "serve-examples": "node --experimental-modules examples/server.mjs"
